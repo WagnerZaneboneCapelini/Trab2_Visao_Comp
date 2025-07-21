@@ -15,12 +15,12 @@ RUN groupadd --gid $GID user && \
 USER user
 
 # Create and activate a virtual environment.
-ENV VIRTUAL_ENV /opt/snap-package-template-env
+ENV VIRTUAL_ENV /opt/Trab2_Visao_Comp-env
 ENV PATH $VIRTUAL_ENV/bin:$PATH
 RUN python -m venv $VIRTUAL_ENV
 
 # Set the working directory.
-WORKDIR /workspaces/snap-package-template/
+WORKDIR /workspaces/Trab2_Visao_Comp/
 
 
 
@@ -45,9 +45,9 @@ RUN --mount=type=cache,target=/var/cache/apt/ \
 USER user
 
 # Install the run time Python dependencies in the virtual environment.
-COPY --chown=user:user poetry.lock* pyproject.toml /workspaces/snap-package-template/
+COPY --chown=user:user poetry.lock* pyproject.toml /workspaces/Trab2_Visao_Comp/
 RUN mkdir -p /home/user/.cache/pypoetry/ && mkdir -p /home/user/.config/pypoetry/ && \
-    mkdir -p src/snap_package_template/ && touch src/snap_package_template/__init__.py && touch README.md
+    mkdir -p src/trab2_visao_comp/ && touch src/trab2_visao_comp/__init__.py && touch README.md
 RUN --mount=type=cache,uid=$UID,gid=$GID,target=/home/user/.cache/pypoetry/ \
     poetry install --only main --all-extras --no-interaction
 
@@ -72,7 +72,7 @@ RUN --mount=type=cache,uid=$UID,gid=$GID,target=/home/user/.cache/pypoetry/ \
     poetry install --all-extras --no-interaction
 
 # Persist output generated during docker build so that we can restore it in the dev container.
-COPY --chown=user:user .pre-commit-config.yaml /workspaces/snap-package-template/
+COPY --chown=user:user .pre-commit-config.yaml /workspaces/Trab2_Visao_Comp/
 RUN mkdir -p /opt/build/poetry/ && cp poetry.lock /opt/build/poetry/ && \
     git init && pre-commit install --install-hooks && \
     mkdir -p /opt/build/git/ && cp .git/hooks/commit-msg .git/hooks/pre-commit /opt/build/git/

@@ -1,6 +1,6 @@
-[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/snapenv/snap-package-template) [![Open in GitHub Codespaces](https://img.shields.io/static/v1?label=GitHub%20Codespaces&message=Open&color=blue&logo=github)](https://codespaces.new/snapenv/snap-package-template)
+[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/WagnerZaneboneCapelini/Trab2_Visao_Comp) [![Open in GitHub Codespaces](https://img.shields.io/static/v1?label=GitHub%20Codespaces&message=Open&color=blue&logo=github)](https://codespaces.new/WagnerZaneboneCapelini/Trab2_Visao_Comp)
 
-# Contributing to snap-package-template
+# Contributing to Trab2_Visao_Comp
 
 This is an open-source project and we welcome contributions.
 
@@ -37,7 +37,7 @@ poetry install
    - This setup will:
      - Create a `.venv` virtual environment in the current directory.
      - Install the required packages.
-     - Install the `snap-package-template` package in editable mode.
+     - Install the `Trab2_Visao_Comp` package in editable mode.
 3. Activate the virtual environment:
 ```sh
 poetry shell
@@ -111,7 +111,7 @@ These scripts will perform code formatting with `ruff`, static type checks with 
 The following development environments are supported:
 
 1. ⭐️ _GitHub Codespaces_: click on _Code_ and select _Create codespace_ to start a Dev Container with [GitHub Codespaces](https://github.com/features/codespaces).
-1. ⭐️ _Dev Container (with container volume)_: click on [Open in Dev Containers](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/snapenv/snap-package-template) to clone this repository in a container volume and create a Dev Container with VS Code.
+1. ⭐️ _Dev Container (with container volume)_: click on [Open in Dev Containers](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/WagnerZaneboneCapelini/Trab2_Visao_Comp) to clone this repository in a container volume and create a Dev Container with VS Code.
 1. _Dev Container_: clone this repository, open it with VS Code, and run <kbd>Ctrl/⌘</kbd> + <kbd>⇧</kbd> + <kbd>P</kbd> → _Dev Containers: Reopen in Container_.
 1. _PyCharm_: clone this repository, open it with PyCharm, and [configure Docker Compose as a remote interpreter](https://www.jetbrains.com/help/pycharm/using-docker-compose-as-a-remote-interpreter.html#docker-compose-remote) with the `dev` service.
 1. _Terminal_: clone this repository, open it with your terminal, and run `docker compose up --detach dev` to start a Dev Container in the background, and then run `docker compose exec dev zsh` to open a shell prompt in the Dev Container.

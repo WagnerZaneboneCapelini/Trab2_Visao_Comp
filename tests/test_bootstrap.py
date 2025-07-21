@@ -1,5 +1,5 @@
 """
-Test suite for the snap_package_template module.
+Test suite for the trab2_visao_comp module.
 
 This module contains asynchronous tests for functions within the
 bootstrap_python_package, specifically focusing on the `some_function` function.
@@ -12,7 +12,7 @@ test_some_variable_to_test()
     Asynchronously tests that `some_function` returns the expected value.
 """
 
-from snap_package_template import some_function
+from trab2_visao_comp import some_function
 
 
 async def test_some_variable_to_test():

@@ -6,8 +6,8 @@
     "cookiecutter": {
       "project_type": "package",
       "project_name": "Snap Package Template",
-      "project_description": "SnapEnv template for Python package.",
-      "project_url": "https://github.com/snapenv/snap-package-template",
+      "project_description": "Awesome trab2_visao_comp created by WagnerZaneboneCapelini",
+      "project_url": "https://github.com/WagnerZaneboneCapelini/Trab2_Visao_Comp",
       "author_name": "Abner G Jacobsen",
       "author_email": "abner@apoana.com.br",
       "python_version": ">=3.11,<3.13",
@@ -20,8 +20,8 @@
       "private_package_repository_url": "",
       "__docker_image": "python:$PYTHON_VERSION-slim",
       "__docstring_style": "NumPy",
-      "__project_name_kebab_case": "snap-package-template",
-      "__project_name_snake_case": "snap_package_template",
+      "__project_name_kebab_case": "Trab2_Visao_Comp",
+      "__project_name_snake_case": "trab2_visao_comp",
       "_template": "https://github.com/radix-ai/poetry-cookiecutter"
     }
   },

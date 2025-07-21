@@ -4,8 +4,8 @@ site_name: SnapEnv Backend Template
 site_description: SnapEnv backend template.
 site_author: 'Abner G Jacobsen'
 docs_dir: docs/
-repo_name: 'snapenv/snap-backend-template'
-repo_url: 'https://github.com/snapenv/snap-backend-template'
+repo_name: 'WagnerZaneboneCapelini/snap-backend-template'
+repo_url: 'https://github.com/WagnerZaneboneCapelini/snap-backend-template'
 copyright: Copyright &copy; 2023 - 2024 Abner G Jacobsen
 
 plugins:

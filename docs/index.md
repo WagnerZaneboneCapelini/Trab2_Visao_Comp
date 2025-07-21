@@ -1,4 +1,4 @@
-[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/snapenv/snap-package-template) [![Open in GitHub Codespaces](https://img.shields.io/static/v1?label=GitHub%20Codespaces&message=Open&color=blue&logo=github)](https://github.com/snapenv/snap-package-template)
+[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/WagnerZaneboneCapelini/Trab2_Visao_Comp) [![Open in GitHub Codespaces](https://img.shields.io/static/v1?label=GitHub%20Codespaces&message=Open&color=blue&logo=github)](https://github.com/WagnerZaneboneCapelini/Trab2_Visao_Comp)
 
 ![Static Badge](https://img.shields.io/badge/Python-33.11_%7C_3.12-blue?logo=python&logoColor=white)
 [![Stable Version](https://img.shields.io/pypi/v/bootstrap-python-package?color=blue)](https://pypi.org/project/bootstrap-python-package/)
@@ -15,7 +15,7 @@
 
 # 👖 SnapEnv template for Python package
 
-SnapEnv template for Python package.
+Awesome trab2_visao_comp created by WagnerZaneboneCapelini
 
 It was created having in mind SnapEnv people and what the most common use-cases would be. Following its structure you'll get into developing your next FastAPI server in no time!
 
@@ -41,11 +41,11 @@ It was created having in mind SnapEnv people and what the most common use-cases 
 ### Installing
 
 ```sh
-poetry add snap-package-template
+poetry add Trab2_Visao_Comp
 ```
 
 ```sh
-pip install snap-package-template
+pip install Trab2_Visao_Comp
 ```
 
 ## Contributing
@@ -88,7 +88,7 @@ pip install snap-package-template
 The following development environments are supported:
 
 1. ⭐️ _GitHub Codespaces_: click on _Code_ and select _Create codespace_ to start a Dev Container with [GitHub Codespaces](https://github.com/features/codespaces).
-1. ⭐️ _Dev Container (with container volume)_: click on [Open in Dev Containers](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/snapenv/snap-backend-template) to clone this repository in a container volume and create a Dev Container with VS Code.
+1. ⭐️ _Dev Container (with container volume)_: click on [Open in Dev Containers](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/WagnerZaneboneCapelini/snap-backend-template) to clone this repository in a container volume and create a Dev Container with VS Code.
 1. _Dev Container_: clone this repository, open it with VS Code, and run <kbd>Ctrl/⌘</kbd> + <kbd>⇧</kbd> + <kbd>P</kbd> → _Dev Containers: Reopen in Container_.
 1. _PyCharm_: clone this repository, open it with PyCharm, and [configure Docker Compose as a remote interpreter](https://www.jetbrains.com/help/pycharm/using-docker-compose-as-a-remote-interpreter.html#docker-compose-remote) with the `dev` service.
 1. _Terminal_: clone this repository, open it with your terminal, and run `docker compose up --detach dev` to start a Dev Container in the background, and then run `docker compose exec dev zsh` to open a shell prompt in the Dev Container.

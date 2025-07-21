@@ -3,12 +3,12 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]  # https://python-poetry.org/docs/pyproject/
-name = "snap-package-template"
+name = "Trab2_Visao_Comp"
 version = "0.0.0"
-description = "SnapEnv template for Python package."
+description = "Awesome trab2_visao_comp created by WagnerZaneboneCapelini"
 authors = ["Abner G Jacobsen <abner@apoana.com.br>"]
 readme = "README.md"
-repository = "https://github.com/snapenv/snap-package-template"
+repository = "https://github.com/WagnerZaneboneCapelini/Trab2_Visao_Comp"
 
 [tool.commitizen]  # https://commitizen-tools.github.io/commitizen/config/
 bump_message = "bump(release): v$current_version → v$new_version"

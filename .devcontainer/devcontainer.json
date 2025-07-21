@@ -1,5 +1,5 @@
 {
-    "name": "snap-package-template",
+    "name": "Trab2_Visao_Comp",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "devcontainer",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/",
@@ -45,7 +45,7 @@
                     "notebook.source.organizeImports": "explicit"
                 },
                 "notebook.formatOnSave.enabled": true,
-                "python.defaultInterpreterPath": "/opt/snap-package-template-env/bin/python",
+                "python.defaultInterpreterPath": "/opt/Trab2_Visao_Comp-env/bin/python",
                 "python.terminal.activateEnvironment": false,
                 "python.testing.pytestEnabled": true,
                 "ruff.importStrategy": "fromEnvironment",
