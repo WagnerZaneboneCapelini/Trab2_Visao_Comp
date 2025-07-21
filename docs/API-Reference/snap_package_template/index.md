@@ -1,0 +1,1 @@
+::: src.snap_package_template
