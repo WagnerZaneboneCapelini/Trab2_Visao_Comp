@@ -20,6 +20,8 @@ version_provider = "poetry"
 python = ">=3.11,<3.13"
 pydantic = "^2.8.2"
 pydantic-settings = "^2.4.0"
+opencv-python = "^4.12.0.88"
+matplotlib = "^3.10.3"
 
 [tool.poetry.group.test.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 commitizen = ">=3.21.3"
